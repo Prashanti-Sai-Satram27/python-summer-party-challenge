@@ -53,43 +53,49 @@ Each notebook represents one day’s challenge:
    ```bash
    git clone https://github.com/your-username/python-summer-party.git
    cd python-summer-party
-Create and activate a Python environment (venv or conda).
+   ```
+2. Create and activate a Python environment (**venv** or **conda**).  
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # Mac/Linux
+   venv\Scripts\activate      # Windows
+   ```
+3. Install dependencies:  
+   ```bash
+   pip install jupyterlab pandas numpy
+   ```
+4. Launch **Jupyter Lab** or **Notebook** and open any `day-XX.ipynb` file to explore the solutions:  
+   ```bash
+   jupyter lab
+   ```
 
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
-Install dependencies:
+---
 
-bash
-Copy
-Edit
-pip install jupyterlab pandas numpy
-Launch Jupyter Lab or Notebook and open any day-XX.ipynb file to explore the solutions:
+## 🏆 Certificate
+![Certificate](Py_Challegnge_Certificate-1.png)  
 
-bash
-Copy
-Edit
-jupyter lab
-🏆 Certificate
+Successfully completed **15 Days of Python Coding Challenges for Data Science & Analytics** in **August 2025**.  
 
-Successfully completed 15 Days of Python Coding Challenges for Data Science & Analytics in August 2025.
-![Certificate](Py Challegnge Certificate-1.png)  
+---
 
-💡 Key Learnings
-Strengthened hands-on skills in data analysis with Python.
+## 💡 Key Learnings
+- Strengthened hands-on skills in **data analysis with Python**.  
+- Built confidence in solving **open-ended business problems**.  
+- Learned to communicate insights clearly using **efficient and simple code**.  
+- Developed consistency and logical thinking through daily practice.  
 
-Built confidence in solving open-ended business problems.
+---
 
-Learned to communicate insights clearly using efficient and simple code.
+## 🙏 Acknowledgment
+Special thanks to **Dawn Choo, Venkata Naga Sai Kumar Bysani, and Jeremiah Clark** for organizing this **hands-on learning experience** and making data analysis fun and practical.
 
-Developed consistency and logical thinking through daily practice.
+---
 
-🙏 Acknowledgment
-Special thanks to Dawn Choo, Venkata Naga Sai Kumar Bysani, and Jeremiah Clark for organizing this hands-on learning experience and making data analysis fun and practical.
+## 📖 About Interview Master
+These challenges are hosted by **Interview Master** — a platform for preparing for **Data Science & Analytics interviews**.  
+Learn more at [interviewmaster.ai](https://interviewmaster.ai)
 
-📖 About Interview Master
-These challenges are hosted by Interview Master — a platform for preparing for Data Science & Analytics interviews.
-Learn more at [interviewmaster.ai](https://www.interviewmaster.ai).
+---
+
+⭐ Feel free to explore the notebooks and suggest improvements!
+
